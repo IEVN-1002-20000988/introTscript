@@ -11,4 +11,9 @@ const alumno:Alumno = {
     email:'juanlopez@gmail.com'
 }
 
-console.log(alumno.nombre);
+console.table(alumno)
+
+let mascotas=['perro', 'gato' , 'perico']
+mascotas[1]='Perico Verde'
+mascotas.push('gato dos')
+console.table(mascotas)
